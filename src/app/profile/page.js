@@ -15,8 +15,6 @@ import {
   updateDoc,
 } from "firebase/firestore";
 import { db } from "../../../firebase";
-import { DatePickerComponent } from "@syncfusion/ej2-react-calendars";
-import { DEV_CLIENT_PAGES_MANIFEST } from "next/dist/shared/lib/constants";
 
 const raleway = Raleway({
   weight: ["400", "700"],
